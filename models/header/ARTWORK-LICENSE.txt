@@ -21,3 +21,11 @@ mascot or token design.
 
 Dunlop names and graphics belong to their respective owners. The Flow Gloss
 pick is an independent reconstruction of the user's photographed object.
+
+NZXT H5 Flow: original low-poly reconstruction of the black 2022 case,
+CC-H51FB-01, with a procedurally painted pixel atlas. Reference photos:
+https://www.newegg.com/p/N82E16811146342
+Specifications: https://checkout.nzxt.com/fr/products/h5-flow-2022
+Product photos are not redistributed or used as textures. NZXT names and
+product design belong to their respective owners. The independent mesh and
+atlas follow this site's "feel free to copy" policy.
