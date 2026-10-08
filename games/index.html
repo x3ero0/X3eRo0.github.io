@@ -49,14 +49,12 @@
   })();
 </script>
 <link rel="icon" href="/img/favicon.ico">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="preload" href="/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="stylesheet" href="/css/fonts.min.ad5460d28646262ddcd08e2686ef6c662d10caaeecdb31ee7852895d023c4419.css" integrity="sha256-rVRg0oZGJi3c0I4mhu9sZi0Qyq7s2zHueFKJXQI8RBk=" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/css/chroma-light.css">
   <link rel="stylesheet" href="/css/chroma-dark.css">
-      <link rel="stylesheet" href="/css/main.min.894434317654b95f301c850f9b84b666ff3cd2f3c106f9a87e32d95fd14be5c4.css" integrity="sha256-iUQ0MXZUuV8wHIUPm4S2Zv880vPBBvmofjLZX9FL5cQ=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/main.min.049bab27b7045ebe628dba04b3ec780b338608fb124e518784a793492c19a568.css" integrity="sha256-BJurJ7cEXr5ijboEs&#43;x4CzOGCPsSTlGHhKeTSSwZpWg=" crossorigin="anonymous">
 
 
         <script src="/js/main.17ffe038855e5a0634bb5b0d91a248ca7952d6c0ad3064a8ad1b388e32294a09.js" integrity="sha256-F//gOIVeWgY0u1sNkaJIynlS1sCtMGSorRs4jjIpSgk=" crossorigin="anonymous" defer></script>
@@ -69,7 +67,7 @@
     <header class="site-header">
   <div class="header-panel">
     <a class="brand" href="/">x3ero0&#39;s blog</a>
-    <p class="header-summary">reverse engineering, crackmes, and ctf writeups</p>
+    <p class="header-summary">My personal corner of the internet.</p>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>[menu]</button>
     <nav id="site-nav" class="site-nav" data-nav aria-label="Primary">
       
@@ -446,7 +444,7 @@
     <div class="document-body">
       <p>Here is a list of every game on my gamestation, most recently played first.</p>
 <p>I have a strict policy of mostly playing single-player games to keep my sanity intact. That said, I still enjoy a good LAN party with my IRL friends, so I do make room for LAN multiplayer games. Those are usually older PC games from the era when local area network support was common. These days, a proper LAN option in a multiplayer game feels almost as rare as modern games shipping on physical disks. And yes, I absolutely love both LAN games and physical editions.</p>
-<p>I use <a href="https://github.com/mtkennerly/ludusavi">Ludusavi</a>, an open source tool for backing up save data. I also run a script every 30 minutes that scans all Wine prefixes on my game drive and extracts save files into a backup directory. That backup directory is then pushed to a private Git repository for redundancy. This setup lets me preserve my saves while using <a href="https://lutris.net/">Lutris</a> and <a href="https://heroicgameslauncher.com/">Heroic</a> to track how many hours I have put into each game.</p>
+<p>I use <a href="https://github.com/mtkennerly/ludusavi">Ludusavi</a>, an open source tool for backing up save data. I also run a script every 30 minutes that scans all Wine prefixes on my game drive and extracts save files into a backup directory. That backup directory is then pushed to a private Git repository for redundancy. This setup lets me preserve my saves while also using <a href="https://lutris.net/">Lutris</a>, the Linux game launcher and manager I rely on to track how many hours I have put into each game.</p>
 <h2 id="specs">Specs</h2>
 <ul>
 <li><strong>CPU:</strong> Ryzen 9800X3D</li>
@@ -454,7 +452,7 @@
 <li><strong>RAM:</strong> 32 GB</li>
 <li><strong>Disk:</strong> 2 TB</li>
 <li><strong>OS:</strong> <a href="https://cachyos.org/">CachyOS</a></li>
-<li><strong>Game launchers:</strong> Lutris and Heroic</li>
+<li><strong>Game launcher:</strong> Lutris</li>
 </ul>
 <p>If you want a bit more nostalgia, check out <a href="/games/xp/">windows xp.ps1</a>.</p>
 
@@ -475,15 +473,15 @@
             <dl class="gaming-activity-stats" aria-label="Gaming activity totals">
               <div>
                 <dt>played</dt>
-                <dd>154h 30m</dd>
+                <dd>163h</dd>
               </div>
               <div>
                 <dt>active days</dt>
-                <dd>71</dd>
+                <dd>75</dd>
               </div>
               <div>
                 <dt>sessions</dt>
-                <dd>300</dd>
+                <dd>317</dd>
               </div>
             </dl>
           </div>
@@ -492,13 +490,11 @@
             <div
               class="gaming-activity-calendar"
               role="img"
-              aria-label="Gaming activity from 2025-09-28 to 2026-09-28 UTC"
+              aria-label="Gaming activity from 2025-10-05 to 2026-10-08 UTC"
             >
               <div class="gaming-activity-months" aria-hidden="true">
                 
-                  <span>Sep</span>
-                
-                  <span></span>
+                  <span>Oct</span>
                 
                   <span></span>
                 
@@ -602,6 +598,8 @@
                 
                   <span>Oct</span>
                 
+                  <span></span>
+                
               </div>
               <div class="gaming-activity-weekdays" aria-hidden="true">
                 <span></span>
@@ -613,59 +611,6 @@
                 <span></span>
               </div>
               <div class="gaming-activity-weeks">
-                
-                  <div class="gaming-activity-week">
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-09-28: No gaming"
-                        aria-label="2025-09-28: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-09-29: No gaming"
-                        aria-label="2025-09-29: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-09-30: No gaming"
-                        aria-label="2025-09-30: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-10-01: No gaming"
-                        aria-label="2025-10-01: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-10-02: No gaming"
-                        aria-label="2025-10-02: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-10-03: No gaming"
-                        aria-label="2025-10-03: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                      <span
-                        class="gaming-activity-day gaming-activity-level-0"
-                        title="2025-10-04: No gaming"
-                        aria-label="2025-10-04: No gaming"
-                        data-minutes="0"
-                      ></span>
-                    
-                  </div>
                 
                   <div class="gaming-activity-week">
                     
@@ -3380,10 +3325,84 @@
                       ></span>
                     
                       <span
+                        class="gaming-activity-day gaming-activity-level-4"
+                        title="2026-09-28: 3h"
+                        aria-label="2026-09-28: 3h"
+                        data-minutes="180"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-0"
+                        title="2026-09-29: No gaming"
+                        aria-label="2026-09-29: No gaming"
+                        data-minutes="0"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-0"
+                        title="2026-09-30: No gaming"
+                        aria-label="2026-09-30: No gaming"
+                        data-minutes="0"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-0"
+                        title="2026-10-01: No gaming"
+                        aria-label="2026-10-01: No gaming"
+                        data-minutes="0"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-0"
+                        title="2026-10-02: No gaming"
+                        aria-label="2026-10-02: No gaming"
+                        data-minutes="0"
+                      ></span>
+                    
+                      <span
                         class="gaming-activity-day gaming-activity-level-2"
-                        title="2026-09-28: 1h"
-                        aria-label="2026-09-28: 1h"
+                        title="2026-10-03: 46m"
+                        aria-label="2026-10-03: 46m"
+                        data-minutes="46"
+                      ></span>
+                    
+                  </div>
+                
+                  <div class="gaming-activity-week">
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-4"
+                        title="2026-10-04: 3h 14m"
+                        aria-label="2026-10-04: 3h 14m"
+                        data-minutes="194"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-0"
+                        title="2026-10-05: No gaming"
+                        aria-label="2026-10-05: No gaming"
+                        data-minutes="0"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-2"
+                        title="2026-10-06: 1h"
+                        aria-label="2026-10-06: 1h"
                         data-minutes="60"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-3"
+                        title="2026-10-07: 1h 30m"
+                        aria-label="2026-10-07: 1h 30m"
+                        data-minutes="90"
+                      ></span>
+                    
+                      <span
+                        class="gaming-activity-day gaming-activity-level-0"
+                        title="2026-10-08: No gaming"
+                        aria-label="2026-10-08: No gaming"
+                        data-minutes="0"
                       ></span>
                     
                   </div>
@@ -3393,7 +3412,7 @@
           </div>
 
           <div class="gaming-activity-footer">
-            <span>2025-09-28 to 2026-09-28 UTC</span>
+            <span>2025-10-05 to 2026-10-08 UTC</span>
             <div class="gaming-activity-legend" aria-label="Gaming activity legend">
               <span>Less</span>
               
@@ -3491,8 +3510,8 @@
                   <span class="games-list-detail">
                     
                       last played
-                      <time class="games-relative-time" datetime="2026-09-28T07:06:26.418Z" title="2026-09-28 07:06 UTC" data-relative-time>2026-09-28 07:06 UTC</time>
-                      / 9h 16m
+                      <time class="games-relative-time" datetime="2026-10-07T07:11:46.369547801Z" title="2026-10-07 07:11 UTC" data-relative-time>2026-10-07 07:11 UTC</time>
+                      / No playtime recorded
                     
                   </span>
                 </span>
@@ -7659,8 +7678,6 @@
               
 
               
-                
-              
 
               
               
@@ -7670,18 +7687,13 @@
               >
                 <span class="games-list-icon-wrap">
                   
-                    <img
-                      class="games-list-icon"
-                      src="/games/game-ico/the-witcher-3-wild-hunt-complete-edition.png"
-                      alt="The Witcher 3: Wild Hunt - Complete Edition icon"
-                      loading="lazy"
-                    >
+                    <span class="games-list-fallback" aria-hidden="true">TW</span>
                   
                 </span>
 
                 <span class="games-list-copy">
                   <span class="games-list-title-line">
-                    <a class="page-card-link" href="https://store.steampowered.com/app/292030/" target="_blank" rel="noopener noreferrer">The Witcher 3: Wild Hunt - Complete Edition</a>:
+                    <a class="page-card-link" href="https://store.steampowered.com/app/292030/" target="_blank" rel="noopener noreferrer">The Witcher 3: Wild Hunt — Remastered</a>:
                   </span>
                   <span class="games-list-detail">
                     
@@ -8127,11 +8139,11 @@
       </div>
 
       
-      <section class="guestbook-window links-inline sidebar-links" aria-label="Links">
+      <section class="links-window links-inline sidebar-links" aria-label="Links">
         <div class="window-titlebar">
           <span class="window-title">links</span>
         </div>
-        <div class="window-content guestbook-window-content">
+        <div class="window-content">
           
 
   
@@ -8307,81 +8319,71 @@
     
   
 
-  
-    <div class="links-columns">
-      <div class="links-column">
+  <div class="links-feed links-columns">
+    
+    
+    <section class="links-group links-group-personal">
+      <p class="links-group-title">personal</p>
+      <ul class="links-list">
         
-          
-          <section class="links-group">
-            <p class="links-group-title">personal</p>
-            <ul class="links-list">
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://github.com/x3ero0" target="_blank" rel="noopener noreferrer">github</a>
-              </li>
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://x3ero0.dev/nanogram.html" target="_blank" rel="noopener noreferrer">nanogram</a>
-              </li>
-              
-            </ul>
-          </section>
-          
+        <li class="links-entry">
+          <a class="links-item" href="https://github.com/x3ero0" target="_blank" rel="noopener noreferrer">github</a>
+        </li>
         
-          
+        <li class="links-entry">
+          <a class="links-item" href="https://x3ero0.dev/nanogram.html" target="_blank" rel="noopener noreferrer">nanogram</a>
+        </li>
         
-          
-          <section class="links-group">
-            <p class="links-group-title">programming</p>
-            <ul class="links-list">
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://brightprogrammer.in" target="_blank" rel="noopener noreferrer">brightprogrammer.in</a>
-              </li>
-              
-            </ul>
-          </section>
-          
+      </ul>
+      <figure class="links-model" data-links-model data-renderer-url="/wasm/model-renderer/44d4639360643e2fc502fc4198fa3971645f157fca1409244e643f5f7357e820/model-view.js" data-model-options="[{&#34;height&#34;:300,&#34;id&#34;:&#34;gnu&#34;,&#34;model&#34;:&#34;/models/header/gnu-linux-ps1.c611c5aebae5e91aeeab4c2dd43ac25aea475ceae7596fba567e457268ac73df.glb&#34;,&#34;name&#34;:&#34;GNU / Linux coin&#34;,&#34;preview&#34;:&#34;/models/header/gnu-linux-ps1-preview.8ec2014efd72e26f54bb1dbc23f89437893f56c276db1380fea5b77dbe732065.png&#34;,&#34;width&#34;:300},{&#34;height&#34;:300,&#34;id&#34;:&#34;pick&#34;,&#34;model&#34;:&#34;/models/header/flow-gloss-ps1.81b7da00b8e664eb85b701b49faa3ea6ba8d330138fc7ab52344f9637ed87c83.glb&#34;,&#34;name&#34;:&#34;Dunlop Flow Gloss guitar pick&#34;,&#34;preview&#34;:&#34;/models/header/flow-gloss-ps1-preview.d9b350b41a27fb15fb27f008d67e833ee420a1429f86e6acb35c012ba09c7d51.png&#34;,&#34;width&#34;:300}]" data-model-id="gnu" data-model-url="/models/header/gnu-linux-ps1.c611c5aebae5e91aeeab4c2dd43ac25aea475ceae7596fba567e457268ac73df.glb" data-model-name="GNU / Linux coin">
+  <img src="/models/header/gnu-linux-ps1-preview.8ec2014efd72e26f54bb1dbc23f89437893f56c276db1380fea5b77dbe732065.png" width="300" height="300" alt="GNU / Linux coin" draggable="false" data-model-preview>
+</figure>
+
+    </section>
+    
+    
+    <section class="links-group">
+      <p class="links-group-title">hacking</p>
+      <ul class="links-list">
         
-      </div>
-      <div class="links-column">
+        <li class="links-entry">
+          <a class="links-item" href="https://shellphish.net/" target="_blank" rel="noopener noreferrer">shellphish</a>
+        </li>
         
-          
+        <li class="links-entry">
+          <a class="links-item" href="https://ctf.asu.edu/education/ace-ctf-academy/" target="_blank" rel="noopener noreferrer">ctf-academy</a>
+        </li>
         
-          
-          <section class="links-group">
-            <p class="links-group-title">hacking</p>
-            <ul class="links-list">
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://shellphish.net/" target="_blank" rel="noopener noreferrer">shellphish</a>
-              </li>
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://ctf.asu.edu/education/ace-ctf-academy/" target="_blank" rel="noopener noreferrer">ctf-academy</a>
-              </li>
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://pwn.college" target="_blank" rel="noopener noreferrer">pwn.college</a>
-              </li>
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://blog.zolutal.io/" target="_blank" rel="noopener noreferrer">zolutal</a>
-              </li>
-              
-              <li class="links-entry">
-                <a class="links-item" href="https://deut-erium.github.io/" target="_blank" rel="noopener noreferrer">deut-erium</a>
-              </li>
-              
-            </ul>
-          </section>
-          
+        <li class="links-entry">
+          <a class="links-item" href="https://pwn.college" target="_blank" rel="noopener noreferrer">pwn.college</a>
+        </li>
         
-          
+        <li class="links-entry">
+          <a class="links-item" href="https://blog.zolutal.io/" target="_blank" rel="noopener noreferrer">zolutal</a>
+        </li>
         
-      </div>
-    </div>
-  
+        <li class="links-entry">
+          <a class="links-item" href="https://deut-erium.github.io/" target="_blank" rel="noopener noreferrer">deut-erium</a>
+        </li>
+        
+      </ul>
+      
+    </section>
+    
+    
+    <section class="links-group">
+      <p class="links-group-title">programming</p>
+      <ul class="links-list">
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://brightprogrammer.in" target="_blank" rel="noopener noreferrer">brightprogrammer.in</a>
+        </li>
+        
+      </ul>
+      
+    </section>
+    
+  </div>
 
 
         </div>
@@ -8395,17 +8397,20 @@
     <footer class="site-footer">
   <div class="footer-panel">
     <p>Copying is an act of love, feel free to copy.</p>
+    
+      <p><a href="/models/header/ARTWORK-LICENSE.txt">Model artwork credits</a></p>
+    
   </div>
 </footer>
 
   </div>
   
 <aside class="links-sidebar" aria-label="Links">
-  <section class="guestbook-window">
+  <section class="links-window">
     <div class="window-titlebar">
       <span class="window-title">links</span>
     </div>
-    <div class="window-content guestbook-window-content">
+    <div class="window-content">
       
 
   
@@ -8581,70 +8586,76 @@
     
   
 
-  
-    <div class="links-feed">
+  <div class="links-feed">
+    
+    
+    <section class="links-group links-group-personal">
+      <p class="links-group-title">personal</p>
+      <ul class="links-list">
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://github.com/x3ero0" target="_blank" rel="noopener noreferrer">github</a>
+        </li>
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://x3ero0.dev/nanogram.html" target="_blank" rel="noopener noreferrer">nanogram</a>
+        </li>
+        
+      </ul>
+      <figure class="links-model" data-links-model data-renderer-url="/wasm/model-renderer/44d4639360643e2fc502fc4198fa3971645f157fca1409244e643f5f7357e820/model-view.js" data-model-options="[{&#34;height&#34;:300,&#34;id&#34;:&#34;gnu&#34;,&#34;model&#34;:&#34;/models/header/gnu-linux-ps1.c611c5aebae5e91aeeab4c2dd43ac25aea475ceae7596fba567e457268ac73df.glb&#34;,&#34;name&#34;:&#34;GNU / Linux coin&#34;,&#34;preview&#34;:&#34;/models/header/gnu-linux-ps1-preview.8ec2014efd72e26f54bb1dbc23f89437893f56c276db1380fea5b77dbe732065.png&#34;,&#34;width&#34;:300},{&#34;height&#34;:300,&#34;id&#34;:&#34;pick&#34;,&#34;model&#34;:&#34;/models/header/flow-gloss-ps1.81b7da00b8e664eb85b701b49faa3ea6ba8d330138fc7ab52344f9637ed87c83.glb&#34;,&#34;name&#34;:&#34;Dunlop Flow Gloss guitar pick&#34;,&#34;preview&#34;:&#34;/models/header/flow-gloss-ps1-preview.d9b350b41a27fb15fb27f008d67e833ee420a1429f86e6acb35c012ba09c7d51.png&#34;,&#34;width&#34;:300}]" data-model-id="gnu" data-model-url="/models/header/gnu-linux-ps1.c611c5aebae5e91aeeab4c2dd43ac25aea475ceae7596fba567e457268ac73df.glb" data-model-name="GNU / Linux coin">
+  <img src="/models/header/gnu-linux-ps1-preview.8ec2014efd72e26f54bb1dbc23f89437893f56c276db1380fea5b77dbe732065.png" width="300" height="300" alt="GNU / Linux coin" draggable="false" data-model-preview>
+</figure>
+
+    </section>
+    
+    
+    <section class="links-group">
+      <p class="links-group-title">hacking</p>
+      <ul class="links-list">
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://shellphish.net/" target="_blank" rel="noopener noreferrer">shellphish</a>
+        </li>
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://ctf.asu.edu/education/ace-ctf-academy/" target="_blank" rel="noopener noreferrer">ctf-academy</a>
+        </li>
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://pwn.college" target="_blank" rel="noopener noreferrer">pwn.college</a>
+        </li>
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://blog.zolutal.io/" target="_blank" rel="noopener noreferrer">zolutal</a>
+        </li>
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://deut-erium.github.io/" target="_blank" rel="noopener noreferrer">deut-erium</a>
+        </li>
+        
+      </ul>
       
-      <section class="links-group">
-        <p class="links-group-title">personal</p>
-        <ul class="links-list">
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://github.com/x3ero0" target="_blank" rel="noopener noreferrer">github</a>
-          </li>
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://x3ero0.dev/nanogram.html" target="_blank" rel="noopener noreferrer">nanogram</a>
-          </li>
-          
-        </ul>
-      </section>
+    </section>
+    
+    
+    <section class="links-group">
+      <p class="links-group-title">programming</p>
+      <ul class="links-list">
+        
+        <li class="links-entry">
+          <a class="links-item" href="https://brightprogrammer.in" target="_blank" rel="noopener noreferrer">brightprogrammer.in</a>
+        </li>
+        
+      </ul>
       
-      <section class="links-group">
-        <p class="links-group-title">hacking</p>
-        <ul class="links-list">
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://shellphish.net/" target="_blank" rel="noopener noreferrer">shellphish</a>
-          </li>
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://ctf.asu.edu/education/ace-ctf-academy/" target="_blank" rel="noopener noreferrer">ctf-academy</a>
-          </li>
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://pwn.college" target="_blank" rel="noopener noreferrer">pwn.college</a>
-          </li>
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://blog.zolutal.io/" target="_blank" rel="noopener noreferrer">zolutal</a>
-          </li>
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://deut-erium.github.io/" target="_blank" rel="noopener noreferrer">deut-erium</a>
-          </li>
-          
-        </ul>
-      </section>
-      
-      <section class="links-group">
-        <p class="links-group-title">programming</p>
-        <ul class="links-list">
-          
-          <li class="links-entry">
-            <a class="links-item" href="https://brightprogrammer.in" target="_blank" rel="noopener noreferrer">brightprogrammer.in</a>
-          </li>
-          
-        </ul>
-      </section>
-      
-    </div>
-  
+    </section>
+    
+  </div>
 
 
     </div>
   </section>
 </aside>
 
-
-</body>
+<script src="/js/links-models.e663aaabfbd8cca1723a9112c04120678149c483d1060ee07789c65e974a8df6.js" integrity="sha256-5mOqq/vYzKFyOpESwEEgZ4FJxIPRBg7gd4nGXpdKjfY=" crossorigin="anonymous" defer></script></body>
 </html>

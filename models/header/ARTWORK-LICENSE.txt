@@ -1,0 +1,23 @@
+GNU head: A Bold GNU Head by Aurelio A. Heckert.
+Copyright (C) 2003 Free Software Foundation, Inc.
+Source: https://www.gnu.org/graphics/heckert_gnu.html
+Vector asset: https://www.gnu.org/graphics/heckert_gnu.svg
+Used under Creative Commons Attribution-ShareAlike 2.0:
+https://creativecommons.org/licenses/by-sa/2.0/
+
+The GNU relief in gnu-linux.glb preserves the original detailed geometry from
+the user's GNU/Linux coin STL. That relief was adapted from the original SVG.
+These adaptations are
+distributed under the same CC BY-SA 2.0 license. GNU is a trademark of the
+Free Software Foundation.
+
+gnu-linux-ps1.glb contains surface maps baked from the same relief. These
+adaptations are also distributed under CC BY-SA 2.0.
+
+The Tux portrait geometry in the source coin was traced from the user's coin
+photographs. Tux is based on Larry Ewing's Linux penguin, created using the
+GIMP. This reconstruction is not an assertion of ownership of the underlying
+mascot or token design.
+
+Dunlop names and graphics belong to their respective owners. The Flow Gloss
+pick is an independent reconstruction of the user's photographed object.
