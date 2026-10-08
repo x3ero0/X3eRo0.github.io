@@ -3796,7 +3796,7 @@
     <dt class="sr-only">Last played</dt>
     <dd>
       
-      <time datetime="2026-07-31T10:42:54.964113511Z" title="2026-07-31 10:42 UTC" data-relative-days>68 days ago</time>
+      <time datetime="2026-07-31T10:42:54.964113511Z" title="2026-07-31 10:42 UTC" data-relative-days>69 days ago</time>
     </dd>
   </div>
   <div>
@@ -5305,6 +5305,144 @@
       <p class="games-empty" data-gallery-empty hidden>No games match this search. Try another name.</p>
     </section>
   </div>
+  
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+<section class="comments-section" aria-label="Thoughts">
+  <div class="comments-window">
+    <div class="window-titlebar">
+      <span class="window-title">Thoughts?</span>
+    </div>
+    <div class="window-content comments-window-content">
+      <form
+        class="comments-form"
+        data-comments-form
+        data-comments-remote-enabled="true"
+        method="post"
+        target="comments-hidden-transport"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSfNnxL1kkRvil_ngtx3y30aKg45z4McPw8zfmzUsu6vIXnsJg/formResponse"
+      >
+        <div class="comments-row">
+          <input
+            class="guestbook-input"
+            type="text"
+            maxlength="24"
+            placeholder="nickname"
+            aria-label="Nickname"
+            required
+            autocomplete="nickname"
+            data-comments-nickname
+            name="entry.1908159203"
+          >
+          <input
+            class="guestbook-input"
+            type="text"
+            maxlength="240"
+            placeholder="website (optional)"
+            aria-label="Website"
+            autocomplete="off"
+            data-comments-website
+            name="entry.1928902955"
+          >
+        </div>
+        <textarea
+          class="guestbook-input guestbook-comment"
+          rows="4"
+          placeholder="share your thoughts"
+          aria-label="Thoughts"
+          required
+          autocomplete="off"
+          data-comments-comment
+          name="entry.1702949315"
+          maxlength="1000"
+        ></textarea>
+        
+          <input type="hidden" name="entry.1864108282" value="/games2">
+        
+        
+          <input type="hidden" name="entry.2038822061" value="" data-comments-id>
+        
+        
+          <input type="hidden" name="entry.2123909790" value="" data-comments-reply-to disabled>
+        
+        <div class="comments-actions">
+          <div class="comments-reply-indicator" data-comments-reply-indicator hidden>
+            <span class="comments-reply-label">replying to <strong data-comments-reply-name></strong></span>
+            <button type="button" class="comments-reply-cancel" data-comments-reply-cancel aria-label="Cancel reply">x</button>
+          </div>
+          <div class="cassette-button-group comments-submit-group">
+            <button
+              class="cassette-button cassette-button-momentary comments-send"
+              type="submit"
+              data-momentary-button
+              data-hit-sound-trigger
+            >send</button>
+          </div>
+        </div>
+      </form>
+      <iframe
+        name="comments-hidden-transport"
+        title="comments submission transport"
+        tabindex="-1"
+        hidden
+      ></iframe>
+      
+      
+      
+    </div>
+  </div>
+
+  <div class="comments-dialog" data-comments-dialog hidden>
+    <button
+      class="guestbook-dialog-backdrop"
+      type="button"
+      aria-label="Close dialog"
+      data-comments-dialog-close
+    ></button>
+    <section class="guestbook-dialog-window" role="dialog" aria-modal="true" aria-labelledby="comments-dialog-title">
+      <div class="window-titlebar">
+        <span class="window-title" id="comments-dialog-title">thoughts?</span>
+        <div class="window-actions">
+          <button
+            class="window-button window-button-icon"
+            type="button"
+            aria-label="Close dialog"
+            data-comments-dialog-close
+            data-comments-dialog-close-button
+          >X</button>
+        </div>
+      </div>
+      <div class="window-content guestbook-dialog-content">
+        <p
+          data-comments-dialog-message
+          data-review-message="Your comment is under review. Thanks!"
+          data-rejected-message="Your comment is not under review"
+        >Your comment is under review. Thanks!</p>
+        <div class="guestbook-dialog-actions">
+          <button class="window-button" type="button" data-comments-dialog-close>OK</button>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
   <script>
   (() => {
     const formatRelative = (isoString) => {
