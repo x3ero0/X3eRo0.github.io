@@ -154,13 +154,6 @@
 				<description>&lt;div class=wrapper&gt;&#xA;    &lt;div class=&#34;row flex-header&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;section class=&#34;card crackme-download-card&#34;&gt;&#xA;  &lt;p class=&#34;term-label&#34;&gt;challenge files&lt;/p&gt;&#xA;  &lt;h2 class=&#34;card-title&#34;&gt;Easy Licensing&lt;/h2&gt;&#xA;  &lt;p class=&#34;crackme-download-copy&#34;&gt;Download the provided crackme package or binary.&lt;/p&gt;&#xA;  &lt;div class=&#34;flex-header-buttons&#34;&gt;&#xA;    &lt;div class=&#34;cassette-button-group crackme-download-group&#34;&gt;&#xA;      &lt;a&#xA;        class=&#34;cassette-button cassette-button-momentary crackme-download-link&#34;&#xA;        href=&#34;https://github.com/X3eRo0/Crackmes/raw/master/Crackmes/X3eRo0/Easy_Licensing/revme&#34;&#xA;        data-momentary-button&#xA;        data-hit-sound-trigger&#xA;      &gt;DOWNLOAD&lt;/a&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;section class=&#34;column card crackme-meta-card&#34;&gt;&#xA;  &#xA;    &lt;p class=&#34;crackme-description&#34;&gt;Another Shitty Password Checking&lt;/p&gt;&#xA;  &#xA;  &lt;dl class=&#34;crackme-facts&#34;&gt;&#xA;    &lt;dt&gt;crackme&lt;/dt&gt;&#xA;    &lt;dd&gt;Easy Licensing&lt;/dd&gt;&#xA;    &lt;dt&gt;difficulty&lt;/dt&gt;&#xA;    &lt;dd&gt;Easy&lt;/dd&gt;&#xA;    &lt;dt&gt;platform&lt;/dt&gt;&#xA;    &lt;dd&gt;Linux&lt;/dd&gt;&#xA;    &lt;dt&gt;points&lt;/dt&gt;&#xA;    &lt;dd&gt;3/10&lt;/dd&gt;&#xA;    &lt;dt&gt;date&lt;/dt&gt;&#xA;    &lt;dd&gt;2020-02-02&lt;/dd&gt;&#xA;    &lt;dt&gt;objective&lt;/dt&gt;&#xA;    &lt;dd&gt;Find the Correct password which gives a &amp;#39;Correct Password!!!!!!!&amp;#39; Message&lt;/dd&gt;&#xA;  &lt;/dl&gt;&#xA;&lt;/section&gt;</description>
 			</item>
 			<item>
-				<title>Credit board options</title>
-				<link>https://x3ero0.github.io/cve-sign-options.html</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://x3ero0.github.io/cve-sign-options.html</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>CVEs</title>
 				<link>https://x3ero0.github.io/cve.html</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -172,20 +165,6 @@
 				<link>https://x3ero0.github.io/games/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>https://x3ero0.github.io/games/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Spray wall reference</title>
-				<link>https://x3ero0.github.io/cve-preview.html</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://x3ero0.github.io/cve-preview.html</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Wall options &amp; holds</title>
-				<link>https://x3ero0.github.io/cve-2.html</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://x3ero0.github.io/cve-2.html</guid>
 				<description></description>
 			</item>
 			<item>
