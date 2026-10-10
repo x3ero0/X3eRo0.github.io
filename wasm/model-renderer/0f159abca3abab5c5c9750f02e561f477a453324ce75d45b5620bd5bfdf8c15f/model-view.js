@@ -76,7 +76,6 @@ export class ModelView extends EventTarget {
       this._worker.onmessage=event=>this._message(event.data);
       this._worker.onerror=event=>this._fail(new Error(event.message || 'Renderer worker failed.'));
       this._worker.fps=this.options.fps;
-      this._timeout=setTimeout(()=>this._fail(new Error('Model loading timed out.')),30000);
       this._worker.postMessage({type:'init',wasm,model,canvas:this.canvas.transferControlToOffscreen()});
     }catch(error){this._fail(error);}
   }
