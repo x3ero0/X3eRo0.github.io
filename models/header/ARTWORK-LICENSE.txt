@@ -29,3 +29,20 @@ Specifications: https://checkout.nzxt.com/fr/products/h5-flow-2022
 Product photos are not redistributed or used as textures. NZXT names and
 product design belong to their respective owners. The independent mesh and
 atlas follow this site's "feel free to copy" policy.
+
+Favorite stamp: original circular wooden mesh and worn curved F2 ink artwork,
+following this site's "feel free to copy" policy. Wood color and normal textures
+are Poly Haven's Wood Table 001, photographed by Dimitrios Savva and processed by
+Rico Cilliers, released under CC0:
+https://polyhaven.com/a/wood_table_001
+https://polyhaven.com/license
+
+The Soft thud is trimmed, filtered, faded, and level-adjusted from I.fekry's
+CC0 Traditional Stamp recording:
+https://freesound.org/people/I.fekry/sounds/470710/
+https://creativecommons.org/publicdomain/zero/1.0/
+The Motion Island YouTube clip was a reference only and is not redistributed.
+
+The live stamp renderer uses Three.js 0.180.0 under the MIT license. The bundled
+source and license are retained at assets/js/vendor/three/; the license is also
+published at /js/vendor/three/LICENSE.
